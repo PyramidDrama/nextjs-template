@@ -1095,23 +1095,24 @@ const Home: NextPage = () => {
                <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-12 lg:gap-8 pt-10 lg:pt-12 mb-16">
                   <div className="col-span-full lg:col-span-2">
                      <div className="lg:-mt-2 mb-4">
-                        <a
-                           href="/"
-                           className="inline-flex items-center text-gray-100 text-xl md:text-2xl font-bold gap-2"
-                           aria-label="logo"
-                        >
-                           <svg
-                              width="95"
-                              height="94"
-                              viewBox="0 0 95 94"
-                              className="w-5 h-auto text-indigo-500"
-                              fill="currentColor"
-                              xmlns="http://www.w3.org/2000/svg"
+                        <Link href="/">
+                           <a
+                              className="inline-flex items-center text-gray-100 text-xl md:text-2xl font-bold gap-2"
+                              aria-label="logo"
                            >
-                              <path d="M96 0V47L48 94H0V47L48 0H96Z" />
-                           </svg>
-                           Flowrift
-                        </a>
+                              <svg
+                                 width="95"
+                                 height="94"
+                                 viewBox="0 0 95 94"
+                                 className="w-5 h-auto text-indigo-500"
+                                 fill="currentColor"
+                                 xmlns="http://www.w3.org/2000/svg"
+                              >
+                                 <path d="M96 0V47L48 94H0V47L48 0H96Z" />
+                              </svg>
+                              Flowrift
+                           </a>
+                        </Link>
                      </div>
 
                      <p className="text-gray-400 sm:pr-8 mb-6">
